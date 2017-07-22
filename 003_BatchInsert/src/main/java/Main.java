@@ -30,5 +30,12 @@ public class Main {
 
         System.out.println("*** Insert Finished : " + new Date().toString());
 
+        System.out.println("*** Start Update : " + new Date().toString());
+
+        employeeBL=new EmployeeBL();
+        employeeBL.updateAll();
+
+        System.out.println("*** Update Finished : " + new Date().toString());
+
     }
 }
